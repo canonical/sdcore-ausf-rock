@@ -1,0 +1,19 @@
+name: sdcore-ausf
+base: ubuntu:22.04
+version: '1.3'
+summary: SD-Core AUSF
+description: SD-Core AUSF
+license: Apache-2.0
+platforms:
+  amd64:
+
+parts:
+  ausf:
+    plugin: go
+    source: https://github.com/omec-project/ausf.git
+    source-type: git
+    source-commit: c84dff44b1553bee9c94e153e42ca00b5c1d016b
+    build-snaps:
+      - go/1.18/stable
+    organize:
+      bin/cmd: bin/ausf
