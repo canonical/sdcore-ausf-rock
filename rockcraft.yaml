@@ -1,6 +1,6 @@
 name: sdcore-ausf
 base: bare
-build-base: ubuntu:22.04
+build-base: ubuntu@22.04
 version: '1.3'
 summary: SD-Core AUSF
 description: SD-Core AUSF
