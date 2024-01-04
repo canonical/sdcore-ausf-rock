@@ -14,9 +14,9 @@ parts:
     plugin: go
     source: https://github.com/omec-project/ausf.git
     source-type: git
-    source-commit: c84dff44b1553bee9c94e153e42ca00b5c1d016b
+    source-commit: 874846b42eda132df42fa66fb2497d77f2c564d2
     build-snaps:
-      - go/1.18/stable
+      - go/1.21/stable
     stage-packages:
       - libc6_libs
     organize:
