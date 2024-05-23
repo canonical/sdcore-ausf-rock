@@ -1,4 +1,4 @@
-# SD-Core AUSF ROCK
+# SD-Core AUSF rock
 
 Container image for SD-Core AUSF.
 
