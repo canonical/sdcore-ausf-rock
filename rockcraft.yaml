@@ -1,7 +1,7 @@
 name: sdcore-ausf
 base: bare
 build-base: ubuntu@24.04
-version: '1.6.0'
+version: '1.6.2'
 summary: SD-Core AUSF
 description: SD-Core AUSF
 license: Apache-2.0
